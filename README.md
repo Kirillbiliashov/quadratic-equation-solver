@@ -7,8 +7,9 @@ non-interactive mode (when parameters are read from a file).
 ## Steps for running application:
 1. In pom.xml file, specify either org.example.AppInteractive or
 org.example.AppNonInteractive main class (depending on your choice).
-2. run ``` mvn package ``` command in your terminal (from root app directory).
-3. Then run ``` java -jar target/quadratic-equation-solver-1.0-SNAPSHOT.jar ``` command, 
+2. In case you don't have mvn installed on your machine, follow this guide: https://www.baeldung.com/install-maven-on-windows-linux-mac
+3. run ``` mvn package ``` command in your terminal (from root app directory).
+4. Then run ``` java -jar target/quadratic-equation-solver-1.0-SNAPSHOT.jar ``` command, 
 which executes main class specified in step 1.
 ## Format 
 For non-interactive mode, your parameters should be specified
